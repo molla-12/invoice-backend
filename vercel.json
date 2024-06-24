@@ -8,14 +8,10 @@
       "src": "/(.*)",
       "dest": "/api/index.php"
   }],
-  "builds": [
-    { "src": "public/**/*", "use": "@now/static" }
-  ],
   "env": {
       "APP_ENV": "production",
       "APP_DEBUG": "true",
-      "APP_URL": "https://yourprojectdomain.com",
-      "APP_KEY": "base64:tBYE5omVw99Keux2Y9dFDIOye6zavX1V8Gzp4QR/iJI=",
+      "APP_URL": "https://invoice.com",
 
       "APP_CONFIG_CACHE": "/tmp/config.php",
       "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -28,5 +24,4 @@
       "LOG_CHANNEL": "stderr",
       "SESSION_DRIVER": "cookie"
   }
-  
 }
