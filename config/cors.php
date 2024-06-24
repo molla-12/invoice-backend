@@ -20,7 +20,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:3000'], // Specify your frontend's URL
+    'allowed_origins' => ['https://invoice-frontend-nine.vercel.app'], // Specify your frontend's URL
 
     'allowed_origins_patterns' => [],
 
