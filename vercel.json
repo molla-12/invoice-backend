@@ -11,8 +11,8 @@
   "env": {
       "APP_ENV": "production",
       "APP_DEBUG": "true",
-      "APP_URL": "https://yourprojectdomain.com",
-      "APP_KEY": "base64:tBYE5omVw99Keux2Y9dFDIOye6zavX1V8Gzp4QR/iJI=",
+      "APP_URL": "https://invoicebackend.com",
+      "APP_KEY": "base64:GHnajo7J4259Klc25rY4iyWp7iZDU++QPPprOK+UpTw=",
 
       "APP_CONFIG_CACHE": "/tmp/config.php",
       "APP_EVENTS_CACHE": "/tmp/events.php",
