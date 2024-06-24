@@ -18,9 +18,9 @@ return [
 
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
 
-    'allowed_methods' => ['*'],
+    'allowed_methods' => ['GET, POST, PUT, DELETE'],
 
-    'allowed_origins' => ['https://invoice-frontend-nine.vercel.app'], // Specify your frontend's URL
+    'allowed_origins' => ['https://invoice-frontend-nine.vercel.app'],
 
     'allowed_origins_patterns' => [],
 
@@ -30,22 +30,6 @@ return [
 
     'max_age' => 0,
 
-    'supports_credentials' => true, // Enable credentials
-
-    // 'paths' => ['api/*', 'sanctum/csrf-cookie'],
-
-    // 'allowed_methods' => ['*'],
-
-    // 'allowed_origins' => ['*'],
-
-    // 'allowed_origins_patterns' => [],
-
-    // 'allowed_headers' => ['*'],
-
-    // 'exposed_headers' => [],
-
-    // 'max_age' => 0,
-
-    // 'supports_credentials' => false,
+    'supports_credentials' => false,
 
 ];
